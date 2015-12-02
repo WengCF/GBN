@@ -1,0 +1,26 @@
+Date: Dec 1, 2015
+Author: Yang Liu
+WPI ID: yliu17
+
+This program demonstrates how unidirectional Reliable Date Transfer, Go-Back-N protocol works.
+This implementation works with non-zero out-of-order probability.
+
+Source code files:
+	1) project.c // Network condition simulator
+	2) project.h // Compressed c header
+	3) student2A.c // Data Sender
+	4) student2B.c // Data Receiver
+	5) student_common.c // Shared procedures
+	6) makefile
+
+-----------------------------------------------------------------------------
+
+To compile the program:
+	use following command:
+		> make
+
+-----------------------------------------------------------------------------
+
+To run the program:
+	use following command:
+		> ./project2
